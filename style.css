@@ -1,0 +1,65 @@
+.btn{
+    width: 50px;
+    height: 50px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.dropdown{
+    visibility: hidden;
+    position: relative;
+    top: -65px;
+    transition: all 300ms ease-in;
+    opacity: 0;
+    z-index: 1;
+}
+
+.btn:hover{
+    border: 1px solid #5F9EA0;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: -23px;
+}
+
+.green{
+    background-color: #7FFF00;
+    
+}
+
+.green:hover{
+    background-color: gold;
+    
+}
+
+.ibtn{
+    width: 60px;
+    height: 60px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-top: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.ibtn:hover{
+    border: 1px solid #5F9EA0;
+}
+
+.ibtn a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: -19px;
+}
